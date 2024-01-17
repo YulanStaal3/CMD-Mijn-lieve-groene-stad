@@ -1,0 +1,44 @@
+
+.topnav {
+  background-color: #FFB6C1;
+  text-align: center;
+  position: fixed;
+  width: 97%;
+  top: -15px;
+  left: 0;
+  z-index: 10;
+}
+  
+.topnav li, a {
+  font-weight: 700;
+  display: inline-block;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+  text-align: center;
+}
+  
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+  
+.topnav a.active {
+  background-color: pink;
+  color: rgb(143, 139, 139);
+  border-radius: 10px;
+}
+
+ul, a {
+  text-align: center;
+  list-style-type: none;
+}
+
+img {
+  height: 50px;
+  margin-top: 20px;
+}
