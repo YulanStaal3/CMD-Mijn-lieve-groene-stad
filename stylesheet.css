@@ -1,3 +1,10 @@
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --pink: #ffd8de;
+  }
+    
+
 .body {
     margin-left: -10px;
     margin-right: -10px;
@@ -12,7 +19,7 @@
 }
 
 .topnav {
-    background-color: pink;
+    background-color: var(--pink);
     height: 7em;
     margin-top: -0.5em;
     margin-left: -10px;
@@ -29,7 +36,7 @@
 }
 
 .button {
-border: 2px solid pink;
+border: 2px solid var(--pink);
 position: relative;
 text-align: center;
 display: block;
@@ -42,7 +49,7 @@ display: block;
 
 .button, a{
     text-decoration: none;
-    color: black; 
+    color: var(--black); 
     margin: 1em;
     width: 12em;
     padding-top: 1em;
@@ -64,7 +71,7 @@ display: block;
 }
 
 .topnav2 {
-    background-color: pink;
+    background-color: var(--pink);
     height: 5em;
     margin-top: -0.5em;
     margin-left: -10px;
@@ -72,7 +79,7 @@ display: block;
 }
 
 a {
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
   }
   
@@ -93,7 +100,7 @@ a {
   }
   
   .hamburger1 div {
-    background-color: #000000;
+    background-color: var(--black);
     position: relative;
     width: 40px;
     height: 5px;
@@ -130,7 +137,7 @@ a {
   
   /* Menu */
   .menu1 {
-    background-color: pink;
+    background-color: var(--pink);
     margin-left: -10px;
     margin-right: -10px;
     display: -ms-grid;
