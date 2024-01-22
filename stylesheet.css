@@ -164,3 +164,7 @@ a {
     padding: 10px 0;
     font: 700 20px 'Oswald', sans-serif;
   }
+
+h1 {
+    text-align: center;
+}
