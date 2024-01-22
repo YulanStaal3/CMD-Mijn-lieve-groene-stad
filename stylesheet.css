@@ -36,10 +36,11 @@
 }
 
 .button {
-border: 2px solid var(--pink);
+border: 2px solid var(--black);
 position: relative;
 text-align: center;
 display: block;
+background-color: var(--pink);
 }
 
 .button-zero {
@@ -49,7 +50,7 @@ display: block;
 
 .button, a{
     text-decoration: none;
-    color: var(--black); 
+    color: var(--white); 
     margin: 1em;
     width: 12em;
     padding-top: 1em;
