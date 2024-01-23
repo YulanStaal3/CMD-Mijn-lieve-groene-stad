@@ -97,7 +97,7 @@ font-style: bold;
 }
 
 .topnav2 {
-    background-color: #ffffff;
+    background-color: #e6e6e6;
     height: 3.5em;
     margin-top: -0.4em;
     margin-left: -10px;
@@ -208,3 +208,6 @@ main {
     padding-top: 3em;
 }
 
+h1 {
+  color: #FFFFFF;
+}
