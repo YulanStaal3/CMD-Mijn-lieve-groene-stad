@@ -64,23 +64,23 @@ font-style: bold;
 
 .info a {
   padding-right: 1em;
-  margin-left: -5%;
-  border-style: groove;
-  border-color: black;
+  margin-left: -9%;
+  border-radius: 0.1em;
+  box-shadow: 5px 5px 5px 5px #3c3c3c;
 }
 
 .events a {
   padding-right: 1em;
   margin-left: 50%;
-  border-style: groove;
-  border-color: black;
+  box-shadow: 5px 5px 5px 5px #3c3c3c;
+  border-radius: 0.1em;
 }
 
 .review a{
   padding-right: 1em;
-  margin-left: -5%;
-  border-style: groove;
-  border-color: black;
+  margin-left: -9%;
+  border-radius: 0.1em;
+  box-shadow: 4px 5px 4px 5px #3c3c3c;
 }
 
 /* over ons pagina */
