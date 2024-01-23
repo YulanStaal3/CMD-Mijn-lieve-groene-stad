@@ -52,7 +52,7 @@ border-radius: 0.5em;
 position: relative;
 text-align: center;
 display: block;
-background-color: var(--white);    
+background-color: lightgray;    
 text-decoration: none;
 color: var(--black); 
 margin-top: 1em;
