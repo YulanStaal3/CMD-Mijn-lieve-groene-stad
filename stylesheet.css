@@ -19,11 +19,11 @@
 }
 
 .topnav {
-    background-color: var(--pink);
-    height: 7em;
-    margin-top: -0.5em;
-    margin-left: -10px;
-    margin-right: -10px;
+  background-color: var(--pink);
+  height: 7em;
+  margin-top: -0.5em;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .header-img {
@@ -35,27 +35,42 @@
     margin-right: -7px;
 }
 
-.button {
+/* .button {
 border: 2px solid var(--black);
 position: relative;
 text-align: center;
 display: block;
 background-color: var(--pink);
+} */
+
+.button-zero a {
+border: 2px solid var(--black);
+position: relative;
+text-align: center;
+display: block;
+background-color: none;    
+text-decoration: none;
+color: var(--black); 
+margin: 1em;
+width: 12em;
+padding-top: 1em;
+padding-bottom: 1em;
 }
 
 .button-zero {
-    margin-top: -30em;
-    margin-left: 25%;
+  margin-top: -30em;
+  margin-left: 50%;
+  align-items: center;
 }
 
-.button, a{
+/* .button, a{
     text-decoration: none;
     color: var(--white); 
     margin: 1em;
     width: 12em;
     padding-top: 1em;
     padding-bottom: 1em;
-}
+} */
 
 
 
@@ -175,4 +190,5 @@ a {
 
 h1 {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
