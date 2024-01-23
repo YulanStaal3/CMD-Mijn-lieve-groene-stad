@@ -5,9 +5,10 @@
   }
     
 
-.body {
+body {
     margin-left: -10px;
     margin-right: -10px;
+    background-color: #3c3c3c;
 }
 
 .header-img {
@@ -25,7 +26,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -47em;
+    margin-top: -52em;
     width: 14em;
 }
 
@@ -63,6 +64,7 @@ font-style: bold;
 }
 
 .info a {
+  padding-left: 20px;
   padding-right: 1em;
   margin-left: -9%;
   border-radius: 0.1em;
@@ -78,6 +80,7 @@ font-style: bold;
 
 .review a{
   padding-right: 1em;
+  padding-left: 18px;
   margin-left: -9%;
   border-radius: 0.1em;
   box-shadow: 4px 5px 4px 5px #3c3c3c;
@@ -89,16 +92,18 @@ font-style: bold;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -4.5em;
-    width: 6em;
+    margin-top: 0.2em;
+    width: 5em;
 }
 
 .topnav2 {
-    background-color: var(--pink);
-    height: 3em;
-    margin-top: -0.5em;
+    background-color: #ffffff;
+    height: 3.5em;
+    margin-top: -0.4em;
     margin-left: -10px;
     margin-right: -10px;
+    position: fixed;
+    width: 105%;
 }
 
 a {
@@ -108,7 +113,8 @@ a {
   
   .p-menu1{
      height: 100%;
-     margin-top: -3.8em;
+     margin-top: -2em;
+     margin-left: 1em;
   }
 
   /* Hamburger */
@@ -120,6 +126,7 @@ a {
     grid-template-rows: repeat(3, 1fr);
     justify-items: left;
     z-index: 120;
+    margin-top: -3em;
   }
   
   .hamburger1 div {
@@ -195,7 +202,9 @@ a {
     font: 700 20px 'Oswald', sans-serif;
   }
 
-h1 {
+main {
     text-align: center;
     font-family: "Andale Mono", AndaleMono, monospace; 
+    padding-top: 3em;
 }
+
