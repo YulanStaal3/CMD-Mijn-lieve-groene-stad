@@ -92,14 +92,14 @@ font-style: bold;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0.2em;
+    margin-top: 1.7em;
     width: 5em;
 }
 
 .topnav2 {
     background-color: #e6e6e6;
-    height: 3.8em;
-    margin-top: -0.4em;
+    height: 5em;
+    margin-top: -2em;
     margin-left: -10px;
     margin-right: -10px;
     position: fixed;
