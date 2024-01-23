@@ -98,7 +98,7 @@ font-style: bold;
 
 .topnav2 {
     background-color: #e6e6e6;
-    height: 3.5em;
+    height: 3.8em;
     margin-top: -0.4em;
     margin-left: -10px;
     margin-right: -10px;
@@ -130,7 +130,7 @@ a {
   }
   
   .hamburger1 div {
-    background-color: var(--black);
+    background-color: red;
     position: relative;
     width: 40px;
     height: 5px;
@@ -167,7 +167,8 @@ a {
   
   /* Menu */
   .menu1 {
-    background-color: var(--pink);
+    background-color: var(--black) ;
+    opacity: 0.9;
     margin-left: -10px;
     margin-right: -10px;
     display: -ms-grid;
