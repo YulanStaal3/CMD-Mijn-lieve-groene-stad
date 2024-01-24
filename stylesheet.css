@@ -222,6 +222,7 @@ h1 {
   margin-right: 2em;
   color: #FFFFFF;
   text-align: left;
+  margin-bottom: 7em;
 }
 
 .main-img {
@@ -238,38 +239,39 @@ h1 {
 /* footer */
 
 .footer-basic {
-  padding:40px 0;
-  background-color:#ffffff;
-  color:#4b4c4d;
+  padding: 1px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  color:rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+  width: 102%;
 } 
+
 .footer-basic .social {
-  text-align:center;
-  padding-bottom:25px;
+  text-align: center;
+  padding-bottom: 13px;
 }
 
 
-.footer-basic .social > a {
-  font-size:24px;
-  width:40px;
-  height:40px;
-  line-height:40px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  border:1px solid #ccc;
-  margin:0 8px;
-  color:inherit;
-  opacity:0.75;
-}
-
-.footer-basic .social > a:hover {
-  opacity:0.9;
+.footer-basic .social > img {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0.75;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0;
 }
 
 .footer-basic .copyright {
-  margin-top:15px;
+  margin-top: -0.5em;
   text-align:center;
-  font-size:13px;
-  color:#aaa;
-  margin-bottom:0;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 0.5em;
 }
