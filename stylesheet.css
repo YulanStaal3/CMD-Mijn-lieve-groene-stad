@@ -209,13 +209,13 @@ font: 700 20px 'Oswald', sans-serif;
 }
 
 main {
-text-align: center;
 font-family: "Andale Mono", AndaleMono, monospace; 
 padding-top: 3em;
 }
 
 h1 {
   color: #ffffff;
+  text-align: center;
 }
 
 .main-praatje {
@@ -235,7 +235,6 @@ h1 {
 
 /* Timeline Container */
 .timeline {
-  background: var(--primary-color);
   padding: 20px;
   margin-bottom: 5em;
   margin-top: -2em;
@@ -266,7 +265,7 @@ h1 {
   content: "";
   position: absolute;
   width: 50%;
-  border: solid orangered;
+  border: solid var(--pink);
 }
 
 /* Setting the border of top, bottom, left */
@@ -317,8 +316,14 @@ h1 {
 
 /* Title of the card */
 .title {
-  color: orangered;
+  color: #ff9ecf;
   position: relative;
+  font-size: 20px;
+}
+
+.title2 {
+  color: #FFFFFF;
+  margin-top: -0.5em;
 }
 
 /* Timeline dot  */
@@ -327,9 +332,9 @@ h1 {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: white;
+  background: var(--black);
   border-radius: 999px;
-  border: 3px solid orangered;
+  border: 3px solid #ff9ecf;
 }
 
 /* text right if the card is even  */
