@@ -164,7 +164,7 @@ transition: all 0.2s ease-in-out;
 display: none;
 }
   
-#toggle1:checked + .hamburger1 .top {
+#toggle1:checked + .hamburger1 .span .top {
 -webkit-transform: rotate(-45deg);
 transform: rotate(-45deg);
 margin-top: 22.5px;

@@ -1,89 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="stylesheet.css">
+   <title>Document</title>
 </head>
 <body>
 
-<header>
-
+  <header>
     <div class="topnav2">
+       <a href="index.html">
+       <img class="logo2" src="images/logo_pllek_nieuwe_versie.png" alt="logo">
+       </a>
+       <section class="p-menu1">
+       <nav id="navbar" class="navigation" role="navigation">
+          <input id="toggle1" type="checkbox" />
+          <label class="hamburger1" for="toggle1">
+             <div class="top"></div>
+             <div class="meat"></div>
+             <div class="bottom"></div>
+          </label>
+          <nav class="menu1">
+             <a class="link1" href="index.html">Home</a>
+             <a class="link1" href="info.html">Over Pllek</a>
+             <a class="link1" href="evenementen.html">Evenementen</a>
+             <a class="link1 active" href="sfeer.html">Mijn mening</a>
+             <a class="link1" href="contact.html">Contact</a>
+          </nav>
+       </nav>
+    </div>
+ </header>
 
-      <a href="index.html">
-        <img class="logo2" src="images/logo_pllek_nieuwe_versie.png" alt="logo">
-      </a>
+   <main>
+      <h1>CONTACT</h1>
+      <div class="contact-icon">
+         <div class="icon-item">
+            <a href="mailto:trekin.pllek@gmail.com">
+               <img src="images/contact/contact_mail2.png" alt="mail">
+            </a>
+            <p>Trekin.pllek@gmail.com</p>
+         </div>
+         <div class="icon-item2">
+            <a href="https://www.instagram.com/TrekIn_Pllek">
+               <img src="images/contact/contact_insta.png" alt="insta">
+            </a>
+            <p>@TrekIn_Pllek</p>
+         </div>
+         <div class="icon-item2">
+            <a href="tel:+31612345678">
+               <img src="images/contact/contact_tel.png" alt="tel">
+            </a>
+            <p>06 123456789</p>
+         </div>
+      </div>
+      <form>      
+         <input name="name" type="text" class="feedback-input" placeholder="Naam" />   
+         <input name="email" type="text" class="feedback-input" placeholder="Email" />
+         <textarea name="text" class="feedback-input" placeholder="Bericht"></textarea>
+         <input type="submit" value="VERSTUUR"/>
+      </form>
+   </main>
 
-        <section class="p-menu1">
-            <nav id="navbar" class="navigation" role="navigation">
-              <input id="toggle1" type="checkbox" />
-              <label class="hamburger1" for="toggle1">
-                <div class="top"></div>
-                <div class="meat"></div>
-                <div class="bottom"></div>
-              </label>
-            
-              <nav class="menu1">
-                <a class="link1" href="index.html">Home</a>
-                <a class="link1" href="info.html">Over Pllek</a>
-                <a class="link1" href="evenementen.html">Evenementen</a>
-                <a class="link1" href="sfeer.html">Mijn mening</a>
-                <a class="link1 active" href="contact.html">Contact</a>
-            </nav>
-            </nav>
-    </div> 
-
-</header>
-
-<main>
-
-    <h1>CONTACT</h1>
-
-<div class="contact-icon">
-  <div class="icon-item">
-    <a href="mailto:trekin.pllek@gmail.com">
-    <img src="images/contact/contact_mail2.png" alt="mail">
-  </a>
-    <p>Trekin.pllek@gmail.com</p>
-  </div>
-  <div class="icon-item2">
-    <a href="https://www.instagram.com/TrekIn_Pllek">
-    <img src="images/contact/contact_insta.png" alt="insta">
-  </a>
-    <p>@TrekIn_Pllek</p>
-  </div>
-  <div class="icon-item2">
-    <a href="tel:+31612345678">
-    <img src="images/contact/contact_tel.png" alt="tel">
-  </a>
-    <p>06 123456789</p>
-  </div>
-</div>
-
-    <form>      
-      <input name="name" type="text" class="feedback-input" placeholder="Naam" />   
-      <input name="email" type="text" class="feedback-input" placeholder="Email" />
-      <textarea name="text" class="feedback-input" placeholder="Bericht"></textarea>
-      <input type="submit" value="VERSTUUR"/>
-    </form>
-
-</main>
-
-<footer>
-  <div class="footer-basic">
-    <div class="social">
-      <a href="mailto:trekin.pllek@gmail.com"><img src="images/icoon_mail.png"></a><i class="icon ion-social-mail"></i>
-      <a href="https://www.snapchat.com/add/your_snapchat"><img src="images/icoon_snap.png"></a><i class="icon ion-social-snapchat"></i>
-      <a href="https://www.instagram.com/your_instagram"><img src="images/ICOON_INSTA.png"></a><i class="icon ion-social-insta"></i>
-      <a href="https://www.messenger.com/your_messenger_username"><img src="images/icoon_bericht.png"></a><i class="icon ion-social-bericht"></i>
-  </div>
-  
-    <p class="copyright">Trek in PLLEK © 2024</p>
-  </div>
-</footer>
-
+   <footer>
+      <div class="footer-basic">
+         <div class="social">
+            <a href="mailto:trekin.pllek@gmail.com"><img src="images/icoon_mail.png" alt="email"></a>
+            <a href="https://www.snapchat.com/add/your_snapchat"><img src="images/icoon_snap.png" alt="snapchat"></a>
+            <a href="https://www.instagram.com/your_instagram"><img src="images/ICOON_INSTA.png" alt="instagram"></a>
+            <a href="https://www.messenger.com/your_messenger_username"><img src="images/icoon_bericht.png" alt="message"></a>
+         </div>
+         <p class="copyright">Trek in PLLEK © 2024</p>
+      </div>
+   </footer>
 
 </body>
 </html>
