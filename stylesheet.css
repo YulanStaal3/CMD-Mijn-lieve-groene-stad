@@ -243,7 +243,6 @@ position: relative;
   font-size: 25px;
 }
 
-
 main {
 font-family: "Andale Mono", AndaleMono, monospace; 
 padding-top: 3em;
@@ -269,6 +268,17 @@ h1 {
 }
 
 /* Evenementen pagina tijdlijn */
+
+
+
+
+.main-praatje3 {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 2em;
+}
 
 /* Timeline Container */
 .timeline {
@@ -411,7 +421,19 @@ h1 {
 
 
 
+.stars-img {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-bottom: 1.5em;
+}
 
+.main-praatje2 {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #FFFFFF;
+  text-align: center;
+}
 
 /* carousel  */
 
@@ -539,7 +561,7 @@ max-width: 250px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid var(--pink);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -548,7 +570,7 @@ max-width: 250px;
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid var(--pink); }
 
 textarea {
   height: 150px;
@@ -559,11 +581,11 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:var(--pink);
   border-radius:5px;
   border:0;
   cursor:pointer;
-  color:white;
+  color:black;
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
