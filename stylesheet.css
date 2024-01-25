@@ -47,18 +47,19 @@ position: fixed;
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 8em;
+  top: 7.4em;
   bottom: 0;
   left: 0;
   right: 0;
 }
 
-.industrial-button1, .industrial-button2, .industrial-button3 {
+.industrial-button1, .industrial-button2, .industrial-button3, .industrial-button4 {
+  /* padding: 15px 50px; */
+  display: block;
   font-size: 18px;
   border: 1px solid #141414;
   border-radius: 4px;
   box-shadow: 4px 3px 4px 3px #1c1414;
-  /* background-color: rgba(255, 255, 255, 0.8); */
   background-color: #cecece;
   opacity: 0.8;
   color: #000000;
@@ -79,12 +80,17 @@ position: fixed;
 }
 
 .industrial-button2 {
-  padding: 15px 60px;
+  padding: 15px 66px;
   display: block;
 }
 
 .industrial-button3 {
-  padding: 15px 50px;
+  padding: 15px 60px;
+  display: block;
+}
+
+.industrial-button4 {
+  padding: 15px 87px;
   display: block;
 }
 
@@ -403,46 +409,6 @@ h1 {
 }
 
 
-/* footer */
-
-.footer-basic {
-  padding: 1px 0;
-  background-color: rgba(255, 255, 255, 1);
-  color:rgb(0, 0, 0);
-  position: fixed;
-  bottom: 0;
-  width: 102%;
-} 
-
-.footer-basic .social {
-  text-align: center;
-  padding-bottom: 13px;
-}
-
-
-.footer-basic .social > img {
-  font-size: 24px;
-  width: 40px;
-  height: 40px;
-  line-height: 80px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  opacity: 0.75;
-  margin-top: 0.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  margin-bottom: 0;
-}
-
-.footer-basic .copyright {
-  margin-top: -0.5em;
-  text-align:center;
-  font-size: 15px;
-  color: #000000;
-  margin-bottom: 1.3em;
-}
-
 
 
 
@@ -515,3 +481,44 @@ h2 {
   margin-top: -0.5em;
 }
 
+
+
+
+/* footer */
+
+.footer-basic {
+  padding: 1px 0;
+  background-color: rgba(255, 255, 255, 1);
+  color:rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+  width: 102%;
+} 
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 13px;
+}
+
+.footer-basic .social > img {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0.75;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-bottom: 0;
+}
+
+.footer-basic .copyright {
+  margin-top: -0.5em;
+  text-align:center;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 1.3em;
+}
