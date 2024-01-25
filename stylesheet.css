@@ -535,7 +535,6 @@ h2 {
   margin-bottom: 1.3em;
 }
 
-
 .contact-icon {
   margin-top: 2em;
   margin-left: auto;
@@ -548,30 +547,50 @@ h2 {
   font-family: "Andale Mono", AndaleMono, monospace;
   display: flex;
   align-items: center; 
-  margin-left: 20px; 
+  margin-left: -1em; 
+}
+
+.icon-item2 {
+  font-family: "Andale Mono", AndaleMono, monospace;
+  display: flex;
+  align-items: center; 
+  margin-left: -5.2em; 
 }
 
 .icon-item img {
   margin-bottom: 1em;
-  width: 12%;
+  width: 35px;
   height: auto;
-  margin-left: 15%; 
+  margin-right: 0.6em;
+}
+
+.icon-item2 img {
+  margin-bottom: 1em;
+  width: 35px;
+  height: auto;
   margin-right: 0.6em;
 }
 
 .icon-item p {
   margin-bottom: 2em;
   font-size: 0.8em; 
-  align-self: center; 
-  margin-left: -0,3em;
+  align-self: center; /* Uitlijnen van de tekst links */
+  margin-left: 0.5em; /* Aanpassing van de linkermarge */
+}
+
+.icon-item2 p {
+  margin-bottom: 2em;
+  font-size: 0.8em; 
+  align-self: center; /* Uitlijnen van de tekst links */
+  margin-left: 0.5em; /* Aanpassing van de linkermarge */
 }
 
 form {
-max-width: 250px; 
+max-width: 65%; 
 margin-left: auto;
 margin-right: auto;
 margin-top: 1em;
-margin-bottom: 8em;
+margin-bottom: 7em;
 }
 
 .feedback-input {
