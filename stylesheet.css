@@ -85,7 +85,7 @@ position: fixed;
 }
 
 .industrial-button3 {
-  padding: 15px 60px;
+  padding: 15px 65px;
   display: block;
 }
 
@@ -221,8 +221,8 @@ margin-bottom: 40px;
 width: 100%;
 margin: 0;
 padding: 10px 0;
-font: 700 20px 'Oswald', sans-serif;
-
+font: 900 20px;
+font-family: "Andale Mono", AndaleMono, monospace;
 color: var(--black);
 text-decoration: none;
 position: relative;
@@ -237,7 +237,7 @@ position: relative;
 
 .link1:active,
 .link1.active {
-  color: rgb(94, 94, 94); 
+  color: #faa8d1;
   padding-left: -10px;
   width: 110%;
   font-size: 25px;
@@ -269,9 +269,6 @@ h1 {
 
 /* Evenementen pagina tijdlijn */
 
-
-
-
 .main-praatje3 {
   margin-left: 2em;
   margin-right: 2em;
@@ -282,8 +279,8 @@ h1 {
 
 /* Timeline Container */
 .timeline {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
   padding: 20px;
   margin-bottom: 5em;
   margin-top: -2em;
@@ -455,7 +452,7 @@ h1 {
 }
 
 .slider-container {
-padding-top: 30px;
+padding-top: 20px;
 padding-bottom: 30px;
 width: 100%;
 overflow: hidden;
@@ -463,7 +460,7 @@ margin-top: -2em;
 }
 
 .slider-container2 {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   width: 100%;
   overflow: hidden;
